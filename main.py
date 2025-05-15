@@ -1,6 +1,7 @@
 # TEST server
 from fastapi import FastAPI
-
+import logging
+logging.info('HELLO')
 app = FastAPI()
 
 @app.get("/")
